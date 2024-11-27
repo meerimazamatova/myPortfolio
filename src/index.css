@@ -1,0 +1,8 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Fancy font */
+  background-color: #f4f7fd; /* Light navy blue background */
+  color: #1b1e3f; /* Deep navy text color */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}

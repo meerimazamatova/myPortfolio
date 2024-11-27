@@ -1,0 +1,92 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set up the app container */
+.app-container {
+  font-family: 'Poppins', sans-serif;
+  background-color: #d4d3f9;
+  color: #3e15e4;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header styling */
+.header {
+  background-color: #e2dbf8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #546adc;
+}
+
+/* About Me section */
+.about-me {
+  background-color: #d2d5f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  color: #7c7bec;
+}
+
+.about-me p {
+  font-size: 1rem;
+  color: #330033;
+}
+
+/* Projects section */
+.projects {
+  background-color: #4b32ee;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2 {
+  font-size: 2rem;
+  color: #2538b4;
+}
+
+.projects ul {
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+.projects li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #454198;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #5951d4;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.footer p {
+  font-size: 1rem;
+}
